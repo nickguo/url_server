@@ -1,6 +1,7 @@
 var http = require('http');
 var httpProxy = require('http-proxy');
 
+// TODO: FIX IE BUG
 
 // create the proxy server to handle requests with
 var proxy = httpProxy.createProxyServer({});
