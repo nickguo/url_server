@@ -2,6 +2,7 @@ var http = require('http');
 var httpProxy = require('http-proxy');
 
 // TODO: FIX IE BUG
+// look into req.headers.host for where request is coming from
 
 // create the proxy server to handle requests with
 var proxy = httpProxy.createProxyServer({});
